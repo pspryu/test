@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE struts-config PUBLIC
+  "-//Apache Software Foundation//DTD Struts Configuration 1.3//EN"
+  "http://struts.apache.org/dtds/struts-config_1_3.dtd">
+
+<struts-config>
+    <form-beans>
+        <form-bean name="parseform" type="sample.framework.ParseActionForm" />
+    </form-beans>
+
+    <action-mappings>
+        <action path="/action" name="parseform" type="sample.framework.ParseAction" input="/parse.jsp" />
+    </action-mappings>
+</struts-config>
